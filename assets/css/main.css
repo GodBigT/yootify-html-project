@@ -14919,6 +14919,7 @@ Location:
   .compare-pricing-section .row:nth-child(6) span a {
     text-align: center;
   }
+
   .compare-pricing-section .row:nth-child(6) span a.vl-btn1.btn2 {
     visibility: hidden;
     opacity: 0;
@@ -14940,6 +14941,65 @@ Location:
 .compare-pricing-section .row span {
   flex: 1;
   text-align: start;
+}
+
+@media (max-width: 767px) {
+  .removeOnMobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .space30.d-lg-none.d-block {
+    display: none !important;
+  }
+  .img2.reveal {
+    display: none !important;
+  } 
+}
+
+@media (max-width: 767px) {
+  .hero4-section-area .hero4-heading h5 {
+    font-size: 10px;
+    padding-top: 0 auto;
+    margin-top: 0 auto;
+    margin: 0 auto;
+  }
+  .hero4-section-area .hero4-heading h2 {
+    margin: o auto;
+    font-size: 26px;
+  }
+  .hero4-section-area .hero4-heading p {
+    margin: o auto;
+    font-size: 16px;
+}
+  .hero4-heading {
+    padding-top: 0 auto;
+    margin-top: 0 auto;
+    margin: 0 auto;
+  }
+
+  .h1 .h2 .h3 .h4 .h5 .h6 .h1 .h2 .h3 .h4 .h5 .h6 {
+    margin: o auto;
+    margin-top: 0px;
+  }
+
+  .space20 .space32 {
+    margin: 0 auto;
+    margin-top: 0 auto;
+    padding-top: 0 auto;
+  }
+
+  .hero4-section-area {
+    padding: 100px 0 25px;
+  }
+
+  .space32 {
+    display: none;
+  }
+
+
+
 }
 
 /*============= PRICING CSS AREA ===============*//*# sourceMappingURL=main.css.map */
